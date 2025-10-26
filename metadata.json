@@ -1,0 +1,7 @@
+{
+  "name": "AuraPay - Luxury Commerce",
+  "description": "A seamless e-commerce, scan-and-pay, and installment payment solution designed for jewelers and luxury retailers. Offers AI-powered product descriptions to enhance listings.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

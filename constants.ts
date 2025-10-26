@@ -1,0 +1,85 @@
+
+import type { Product } from './types';
+
+export const MOCK_PRODUCTS: Product[] = [
+  {
+    id: 1,
+    name: 'VVS Diamond "Ghost" Pendant',
+    price: 12500,
+    description: 'A playful yet luxurious piece crafted in 18k white gold, featuring 3.5 carats of VVS clarity diamonds that create a brilliant, shimmering ghost.',
+    image: 'https://picsum.photos/seed/pendant1/600/600',
+    category: 'Jewellery',
+  },
+  {
+    id: 2,
+    name: 'Fully Iced Out Cuban Link Chain',
+    price: 48000,
+    description: 'The ultimate statement piece. This 18-inch, 14k gold Cuban link chain is meticulously hand-set with 25 carats of flawless diamonds.',
+    image: 'https://picsum.photos/seed/chain2/600/600',
+    category: 'Jewellery',
+  },
+  {
+    id: 3,
+    name: 'Custom "Aura" Initial Ring',
+    price: 8900,
+    description: 'Personalize your style with this solid 14k yellow gold initial ring, encrusted with a halo of brilliant-cut diamonds for maximum sparkle.',
+    image: 'https://picsum.photos/seed/ring3/600/600',
+    category: 'Jewellery',
+  },
+  {
+    id: 4,
+    name: 'Ruby & Diamond "Oni" Earrings',
+    price: 15200,
+    description: 'Inspired by Japanese folklore, these stunning earrings feature fierce Oni masks carved from 18k gold, with ruby eyes and diamond accents.',
+    image: 'https://picsum.photos/seed/earrings4/600/600',
+    category: 'Jewellery',
+  },
+  {
+    id: 5,
+    name: 'Micro Jesus Piece Necklace',
+    price: 6750,
+    description: 'A classic icon, reimagined. This detailed micro Jesus piece is crafted from 14k gold and features stunning diamond details, a timeless symbol of faith and style.',
+    image: 'https://picsum.photos/seed/necklace5/600/600',
+    category: 'Jewellery',
+  },
+   {
+    id: 6,
+    name: '18k Gold "Bearbrick" Charm Bracelet',
+    price: 9500,
+    description: 'A tribute to pop culture and luxury, this charm bracelet features a solid 18k gold Bearbrick-inspired figure, fully iced out with colorful sapphires.',
+    image: 'https://picsum.photos/seed/bracelet6/600/600',
+    category: 'Jewellery',
+  },
+  {
+    id: 7,
+    name: 'Audemars Piguet Royal Oak',
+    price: 75000,
+    description: 'A masterpiece of horology, the Royal Oak features an iconic octagonal bezel and integrated bracelet. This 41mm stainless steel model is a timeless icon of sport-luxury.',
+    image: 'https://picsum.photos/seed/watch7/600/600',
+    category: 'Watches',
+  },
+  {
+    id: 8,
+    name: 'Kaws "Companion" Figure',
+    price: 5500,
+    description: 'A highly sought-after collectible by the renowned artist KAWS. This vinyl figure is a statement piece for any modern art enthusiast, blending pop culture with fine art.',
+    image: 'https://picsum.photos/seed/art8/600/600',
+    category: 'Assets',
+  },
+  {
+    id: 9,
+    name: 'Aesop Post-Poo Drops',
+    price: 30,
+    description: 'A botanical bathroom deodoriser that effectively neutralises disagreeable odours with crisp notes of citrus peel and rich floral elements.',
+    image: 'https://picsum.photos/seed/lifestyle9/600/600',
+    category: 'Lifestyle',
+  },
+  {
+    id: 10,
+    name: 'Sulwhasoo Ginseng Serum',
+    price: 260,
+    description: 'A potent, anti-aging serum powered by Ginsenomics™, a 6,000-times concentrated ginseng extract, to visibly firm, lift, and smooth skin for a youthful radiance.',
+    image: 'https://picsum.photos/seed/cosmetics10/600/600',
+    category: 'Luxury Cosmetics',
+  }
+];
